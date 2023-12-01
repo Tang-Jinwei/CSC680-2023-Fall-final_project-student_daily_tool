@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		249E91A32AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */; };
-		249E91A52AE0F47C00C4AE57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A42AE0F47C00C4AE57 /* ContentView.swift */; };
+		249E91A52AE0F47C00C4AE57 /* TODOListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A42AE0F47C00C4AE57 /* TODOListView.swift */; };
 		249E91A72AE0F47D00C4AE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249E91A62AE0F47D00C4AE57 /* Assets.xcassets */; };
 		249E91AA2AE0F47D00C4AE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249E91A92AE0F47D00C4AE57 /* Preview Assets.xcassets */; };
+		249E91B32AE0FBBD00C4AE57 /* someView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B22AE0FBBD00C4AE57 /* someView.swift */; };
+		249E91B52AE1031C00C4AE57 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B42AE1031C00C4AE57 /* TodoView.swift */; };
+		249E91B72AE1065900C4AE57 /* Course+TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B62AE1065900C4AE57 /* Course+TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		249E919F2AE0F47C00C4AE57 /* CSC680-2023-Fall-final_project-student_daily_tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC680-2023-Fall-final_project-student_daily_tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC680_2023_Fall_final_project_student_daily_toolApp.swift; sourceTree = "<group>"; };
-		249E91A42AE0F47C00C4AE57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		249E91A42AE0F47C00C4AE57 /* TODOListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOListView.swift; sourceTree = "<group>"; };
 		249E91A62AE0F47D00C4AE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249E91A92AE0F47D00C4AE57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		249E91B22AE0FBBD00C4AE57 /* someView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = someView.swift; sourceTree = "<group>"; };
+		249E91B42AE1031C00C4AE57 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		249E91B62AE1065900C4AE57 /* Course+TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+TodoList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */,
-				249E91A42AE0F47C00C4AE57 /* ContentView.swift */,
+				249E91A42AE0F47C00C4AE57 /* TODOListView.swift */,
+				249E91B02AE0F51500C4AE57 /* Models */,
+				249E91B12AE0F52500C4AE57 /* Views */,
 				249E91A62AE0F47D00C4AE57 /* Assets.xcassets */,
 				249E91A82AE0F47D00C4AE57 /* Preview Content */,
 			);
@@ -65,6 +73,23 @@
 				249E91A92AE0F47D00C4AE57 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		249E91B02AE0F51500C4AE57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				249E91B62AE1065900C4AE57 /* Course+TodoList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		249E91B12AE0F52500C4AE57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				249E91B22AE0FBBD00C4AE57 /* someView.swift */,
+				249E91B42AE1031C00C4AE57 /* TodoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249E91A52AE0F47C00C4AE57 /* ContentView.swift in Sources */,
+				249E91B72AE1065900C4AE57 /* Course+TodoList.swift in Sources */,
+				249E91A52AE0F47C00C4AE57 /* TODOListView.swift in Sources */,
+				249E91B32AE0FBBD00C4AE57 /* someView.swift in Sources */,
+				249E91B52AE1031C00C4AE57 /* TodoView.swift in Sources */,
 				249E91A32AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +300,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CSC680-2023-Fall-final_project-student_daily_tool/Preview Content\"";
+				DEVELOPMENT_TEAM = 59R7Z3XA4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +331,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CSC680-2023-Fall-final_project-student_daily_tool/Preview Content\"";
+				DEVELOPMENT_TEAM = 59R7Z3XA4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
