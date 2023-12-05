@@ -7,24 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243FCDC42B1A8B8B00242C55 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 243FCDC32B1A8B8B00242C55 /* LoremSwiftum */; };
 		249E91A32AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */; };
-		249E91A52AE0F47C00C4AE57 /* TODOListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A42AE0F47C00C4AE57 /* TODOListView.swift */; };
+		249E91A52AE0F47C00C4AE57 /* CourseTodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91A42AE0F47C00C4AE57 /* CourseTodoListView.swift */; };
 		249E91A72AE0F47D00C4AE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249E91A62AE0F47D00C4AE57 /* Assets.xcassets */; };
 		249E91AA2AE0F47D00C4AE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249E91A92AE0F47D00C4AE57 /* Preview Assets.xcassets */; };
-		249E91B32AE0FBBD00C4AE57 /* someView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B22AE0FBBD00C4AE57 /* someView.swift */; };
-		249E91B52AE1031C00C4AE57 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B42AE1031C00C4AE57 /* TodoView.swift */; };
-		249E91B72AE1065900C4AE57 /* Course+TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B62AE1065900C4AE57 /* Course+TodoList.swift */; };
+		249E91B52AE1031C00C4AE57 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B42AE1031C00C4AE57 /* TodoItemView.swift */; };
+		249E91B72AE1065900C4AE57 /* Course+TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E91B62AE1065900C4AE57 /* Course+TodoItem.swift */; };
+		249F106D2B1AF7C80058FEAE /* CourseTodoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F106C2B1AF7C80058FEAE /* CourseTodoData.swift */; };
+		249F106F2B1AFD950058FEAE /* CourseTodoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F106E2B1AFD950058FEAE /* CourseTodoEditView.swift */; };
+		249F10732B1C26BD0058FEAE /* CourseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F10722B1C26BD0058FEAE /* CourseEditView.swift */; };
+		249F10772B1D428A0058FEAE /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F10762B1D428A0058FEAE /* Semester.swift */; };
+		249F107B2B1DCB500058FEAE /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F107A2B1DCB500058FEAE /* CourseDetailView.swift */; };
+		249F107D2B1DD56D0058FEAE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F107C2B1DD56D0058FEAE /* MainView.swift */; };
+		249F107F2B1DD8700058FEAE /* DueSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F107E2B1DD8700058FEAE /* DueSoonView.swift */; };
+		249F10832B1EF5CC0058FEAE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F10822B1EF5CC0058FEAE /* SwiftUIView.swift */; };
+		249F10852B1EFA9B0058FEAE /* ThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F10842B1EFA9B0058FEAE /* ThemeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		249E919F2AE0F47C00C4AE57 /* CSC680-2023-Fall-final_project-student_daily_tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC680-2023-Fall-final_project-student_daily_tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC680_2023_Fall_final_project_student_daily_toolApp.swift; sourceTree = "<group>"; };
-		249E91A42AE0F47C00C4AE57 /* TODOListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOListView.swift; sourceTree = "<group>"; };
+		249E91A42AE0F47C00C4AE57 /* CourseTodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTodoListView.swift; sourceTree = "<group>"; };
 		249E91A62AE0F47D00C4AE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249E91A92AE0F47D00C4AE57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		249E91B22AE0FBBD00C4AE57 /* someView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = someView.swift; sourceTree = "<group>"; };
-		249E91B42AE1031C00C4AE57 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
-		249E91B62AE1065900C4AE57 /* Course+TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+TodoList.swift"; sourceTree = "<group>"; };
+		249E91B42AE1031C00C4AE57 /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		249E91B62AE1065900C4AE57 /* Course+TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+TodoItem.swift"; sourceTree = "<group>"; };
+		249F106C2B1AF7C80058FEAE /* CourseTodoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTodoData.swift; sourceTree = "<group>"; };
+		249F106E2B1AFD950058FEAE /* CourseTodoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTodoEditView.swift; sourceTree = "<group>"; };
+		249F10722B1C26BD0058FEAE /* CourseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEditView.swift; sourceTree = "<group>"; };
+		249F10762B1D428A0058FEAE /* Semester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		249F107A2B1DCB500058FEAE /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		249F107C2B1DD56D0058FEAE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		249F107E2B1DD8700058FEAE /* DueSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueSoonView.swift; sourceTree = "<group>"; };
+		249F10822B1EF5CC0058FEAE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		249F10842B1EFA9B0058FEAE /* ThemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243FCDC42B1A8B8B00242C55 /* LoremSwiftum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				249E91A22AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift */,
-				249E91A42AE0F47C00C4AE57 /* TODOListView.swift */,
 				249E91B02AE0F51500C4AE57 /* Models */,
 				249E91B12AE0F52500C4AE57 /* Views */,
 				249E91A62AE0F47D00C4AE57 /* Assets.xcassets */,
@@ -78,7 +95,10 @@
 		249E91B02AE0F51500C4AE57 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				249E91B62AE1065900C4AE57 /* Course+TodoList.swift */,
+				249E91B62AE1065900C4AE57 /* Course+TodoItem.swift */,
+				249F106C2B1AF7C80058FEAE /* CourseTodoData.swift */,
+				249F10762B1D428A0058FEAE /* Semester.swift */,
+				249F10842B1EFA9B0058FEAE /* ThemeController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,8 +106,14 @@
 		249E91B12AE0F52500C4AE57 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				249E91B22AE0FBBD00C4AE57 /* someView.swift */,
-				249E91B42AE1031C00C4AE57 /* TodoView.swift */,
+				249E91A42AE0F47C00C4AE57 /* CourseTodoListView.swift */,
+				249E91B42AE1031C00C4AE57 /* TodoItemView.swift */,
+				249F106E2B1AFD950058FEAE /* CourseTodoEditView.swift */,
+				249F10722B1C26BD0058FEAE /* CourseEditView.swift */,
+				249F107A2B1DCB500058FEAE /* CourseDetailView.swift */,
+				249F107C2B1DD56D0058FEAE /* MainView.swift */,
+				249F107E2B1DD8700058FEAE /* DueSoonView.swift */,
+				249F10822B1EF5CC0058FEAE /* SwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +134,9 @@
 			dependencies = (
 			);
 			name = "CSC680-2023-Fall-final_project-student_daily_tool";
+			packageProductDependencies = (
+				243FCDC32B1A8B8B00242C55 /* LoremSwiftum */,
+			);
 			productName = "CSC680-2023-Fall-final_project-student_daily_tool";
 			productReference = 249E919F2AE0F47C00C4AE57 /* CSC680-2023-Fall-final_project-student_daily_tool.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 249E91962AE0F47C00C4AE57;
+			packageReferences = (
+				243FCDC22B1A8B8B00242C55 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = 249E91A02AE0F47C00C4AE57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,10 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249E91B72AE1065900C4AE57 /* Course+TodoList.swift in Sources */,
-				249E91A52AE0F47C00C4AE57 /* TODOListView.swift in Sources */,
-				249E91B32AE0FBBD00C4AE57 /* someView.swift in Sources */,
-				249E91B52AE1031C00C4AE57 /* TodoView.swift in Sources */,
+				249F10832B1EF5CC0058FEAE /* SwiftUIView.swift in Sources */,
+				249F10732B1C26BD0058FEAE /* CourseEditView.swift in Sources */,
+				249F10772B1D428A0058FEAE /* Semester.swift in Sources */,
+				249F10852B1EFA9B0058FEAE /* ThemeController.swift in Sources */,
+				249E91B72AE1065900C4AE57 /* Course+TodoItem.swift in Sources */,
+				249F107D2B1DD56D0058FEAE /* MainView.swift in Sources */,
+				249F107F2B1DD8700058FEAE /* DueSoonView.swift in Sources */,
+				249F106F2B1AFD950058FEAE /* CourseTodoEditView.swift in Sources */,
+				249F107B2B1DCB500058FEAE /* CourseDetailView.swift in Sources */,
+				249F106D2B1AF7C80058FEAE /* CourseTodoData.swift in Sources */,
+				249E91A52AE0F47C00C4AE57 /* CourseTodoListView.swift in Sources */,
+				249E91B52AE1031C00C4AE57 /* TodoItemView.swift in Sources */,
 				249E91A32AE0F47C00C4AE57 /* CSC680_2023_Fall_final_project_student_daily_toolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +380,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		243FCDC22B1A8B8B00242C55 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		243FCDC32B1A8B8B00242C55 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 243FCDC22B1A8B8B00242C55 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 249E91972AE0F47C00C4AE57 /* Project object */;
 }
