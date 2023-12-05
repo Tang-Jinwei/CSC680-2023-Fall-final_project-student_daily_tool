@@ -25,3 +25,8 @@ An APP to help students keep track of their daily To-Do lists to keep them on tr
 - A tab view to nicely organize different scenes
 - Pop-up window to edit todo item
 - Move todo item across the course in the editing view by changing the course's option
+
+**Demo**  
+
+https://github.com/Tang-Jinwei/CSC680-2023-Fall-final_project-student_daily_tool/assets/99456799/0553cb3d-bf60-43a4-8a28-586fad72e988
+
