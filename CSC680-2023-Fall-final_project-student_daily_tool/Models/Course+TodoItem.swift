@@ -36,9 +36,9 @@ struct TodoItem: Identifiable,Codable {
 extension Course {
     static let sampleData = [
         Course(courseName: "CSC680", semester: .fall, todoList: [
-            TodoItem(taskString: "Finish assignment 1,Finish assignment 1,Finish assignment 1,",dueDate: Calendar.current.date(byAdding: .day, value: 3, to: Date())!),
+            TodoItem(taskString: "Finish assignment 1",dueDate: Calendar.current.date(byAdding: .day, value: 3, to: Date())!),
             TodoItem(taskString: "Reading 1",dueDate: Calendar.current.date(byAdding: .day, value: 1, to: Date())!),
-            TodoItem(taskString: Lorem.sentence,dueDate: Calendar.current.date(byAdding: .day, value: 7, to: Date())!)
+            TodoItem(taskString: "Quiz",dueDate: Calendar.current.date(byAdding: .day, value: 7, to: Date())!)
         ]),
         Course(courseName: "CSC645", semester: .fall, todoList: [
             TodoItem(taskString: "Online reading"),

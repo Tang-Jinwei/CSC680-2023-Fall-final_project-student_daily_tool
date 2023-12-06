@@ -30,6 +30,9 @@ struct CourseDetailView: View {
             Spacer()
             List{
                 Section (header: Text("TO DO")) {
+                    if(currentCourse.todoList.isEmpty){
+                        Text("No to-do task yet")
+                    }
                     ForEach($currentCourse.todoList) { $todoItem in
                         TodoItemView(todoLine: $todoItem)
                     }
